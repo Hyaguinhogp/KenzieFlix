@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+
+body{
+    margin: 0;
+}
+
+main{
+    display: flex;
+    align-content: center;
+
+    width: 100%;
+    height: 900px;
+    padding: 0;
+    background-color: black;
+    
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+
+.principal-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1280px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(23, 23, 23);
+}
+
+.principal-box figure{
+    margin: 50px;
+}
+
+.principal-box h1{
+    margin: 40px;
+
+    color: white;
+}
+
+.user-list{
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+    width: 700px;
+}
+
+.user-box{
+    display: flex;
+}
+
+.user-box figure{
+    display: flex;
+    flex-direction: column;
+
+    width: 160px;
+    padding: 0;
+    margin: 8px;
+
+    color: white;
+    text-align: center;
+}
+
+.user-box-image{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+
+    transition: border 0.4s;
+}
+
+.user-box-image:hover{
+    border: 2px white solid;
+}
+
+.user-box figcaption{
+    margin-top: 10px;
+}
+
+.user-box img{
+    width: 100%;
+    transition: transform 0.4s;
+}
+
+.user-box img:hover{
+    transform: scale(120%);
+}
+
+#moreicon{
+    opacity: 50%;
+}
+
+#moreicon:hover{
+    opacity: 1;
+}
+
+.principal-box button{
+    padding: 15px 40px 15px 40px;
+    margin: 80px;
+
+    background-color: rgb(23, 23, 23);
+    border: 2px white solid;
+    border-radius: 5px;
+    
+    color: white;
+    font-size: 16px;
+
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.principal-box button:hover{
+    background-color: white;
+
+    color: black;
+}
